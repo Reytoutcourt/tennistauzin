@@ -1,1 +1,544 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Tauzin — Club de tennis prestigieux | Réservation, cours &amp; coaching</title>
+  <meta name="description" content="Le Club Tauzin vous accueille dans un cadre d'exception : réservation de terrains, cours particuliers et collectifs avec un coach diplômé, du débutant à la compétition.">
 
+  <!-- Google Fonts : Playfair Display (titres) + Poppins (texte) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome (icônes, chargé en CSS uniquement, aucun JS requis) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Feuille de style du site -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== EN-TÊTE ==================== -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <!-- Logo -->
+      <a href="#accueil" class="logo">
+        <span class="logo-mark" aria-hidden="true"><i class="fa-solid fa-table-tennis-paddle-ball"></i></span>
+        <span class="logo-text">TAUZIN</span>
+      </a>
+
+      <!-- Navigation principale -->
+      <nav class="main-nav" aria-label="Navigation principale">
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#reservation">Réservation</a></li>
+          <li><a href="#cours">Cours</a></li>
+          <li><a href="#histoire">Notre histoire</a></li>
+          <li><a href="#tarifs">Tarifs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== HERO ==================== -->
+    <section id="accueil" class="hero">
+      <!-- Image de fond (placeholder) avec voile de transparence -->
+      <div class="hero-bg">
+        <img src="https://placehold.co/1920x1080/1f4d3a/1f4d3a?text=+" alt="" aria-hidden="true">
+        <div class="hero-overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <p class="eyebrow eyebrow-light">Un club de tennis d'exception</p>
+        <h1>Bienvenue au Club Tauzin</h1>
+        <p class="hero-subtitle">
+          Réservez votre terrain ou progressez avec un coaching personnalisé dans un cadre exceptionnel.
+        </p>
+        <div class="hero-buttons">
+          <a href="#reservation" class="btn btn-gold">Réserver un terrain</a>
+          <a href="#cours" class="btn btn-outline-light">Réserver un cours</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== RÉSERVATION DES TERRAINS ==================== -->
+    <section id="reservation" class="courts-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Réservation</p>
+          <h2>Nos terrains</h2>
+          <p class="section-subtitle">Trois terrains d'exception, entretenus avec le plus grand soin.</p>
+        </div>
+
+        <div class="courts-grid">
+
+          <!-- Terrain 1 -->
+          <article class="court-card">
+            <div class="court-image">
+              <img src="https://placehold.co/500x320/1f4d3a/ffffff?text=Terrain+1" alt="Terrain de tennis en terre battue N°1" loading="lazy">
+              <span class="badge badge-available">Disponible</span>
+            </div>
+            <div class="court-info">
+              <h3>Terrain 1 — Terre battue</h3>
+              <ul class="court-details">
+                <li><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Surface : Terre battue</li>
+                <li><i class="fa-regular fa-clock" aria-hidden="true"></i> Horaires : 8h – 22h</li>
+                <li><i class="fa-solid fa-euro-sign" aria-hidden="true"></i> 18 € / heure</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary">Réserver</a>
+            </div>
+          </article>
+
+          <!-- Terrain 2 -->
+          <article class="court-card">
+            <div class="court-image">
+              <img src="https://placehold.co/500x320/1f4d3a/ffffff?text=Terrain+2" alt="Terrain de tennis en gazon synthétique N°2" loading="lazy">
+              <span class="badge badge-available">Disponible</span>
+            </div>
+            <div class="court-info">
+              <h3>Terrain 2 — Gazon synthétique</h3>
+              <ul class="court-details">
+                <li><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Surface : Gazon synthétique</li>
+                <li><i class="fa-regular fa-clock" aria-hidden="true"></i> Horaires : 8h – 22h</li>
+                <li><i class="fa-solid fa-euro-sign" aria-hidden="true"></i> 20 € / heure</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary">Réserver</a>
+            </div>
+          </article>
+
+          <!-- Terrain 3 -->
+          <article class="court-card">
+            <div class="court-image">
+              <img src="https://placehold.co/500x320/1f4d3a/ffffff?text=Terrain+3" alt="Terrain de tennis en dur couvert N°3" loading="lazy">
+              <span class="badge badge-limited">Places limitées</span>
+            </div>
+            <div class="court-info">
+              <h3>Terrain 3 — Dur couvert</h3>
+              <ul class="court-details">
+                <li><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Surface : Dur, couvert</li>
+                <li><i class="fa-regular fa-clock" aria-hidden="true"></i> Horaires : 8h – 23h</li>
+                <li><i class="fa-solid fa-euro-sign" aria-hidden="true"></i> 24 € / heure</li>
+              </ul>
+              <a href="#contact" class="btn btn-primary">Réserver</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== COURS AVEC LE COACH ==================== -->
+    <section id="cours" class="lessons-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Coaching</p>
+          <h2>Nos cours avec le coach</h2>
+          <p class="section-subtitle">Du débutant à la compétition, pour les enfants comme pour les adultes.</p>
+        </div>
+
+        <div class="lessons-grid">
+
+          <!-- Cours particulier -->
+          <article class="lesson-card">
+            <div class="lesson-icon"><i class="fa-solid fa-user" aria-hidden="true"></i></div>
+            <h3>Cours particulier</h3>
+            <p class="lesson-desc">Un accompagnement individuel entièrement adapté à votre niveau, du débutant à la compétition.</p>
+            <p class="lesson-meta"><i class="fa-regular fa-clock" aria-hidden="true"></i> 1 heure</p>
+            <p class="lesson-price">45 €</p>
+            <a href="#contact" class="btn btn-secondary">Réserver</a>
+          </article>
+
+          <!-- Cours en duo -->
+          <article class="lesson-card">
+            <div class="lesson-icon"><i class="fa-solid fa-user-group" aria-hidden="true"></i></div>
+            <h3>Cours en duo</h3>
+            <p class="lesson-desc">Progressez à deux dans une ambiance conviviale et stimulante, entre amis ou en famille.</p>
+            <p class="lesson-meta"><i class="fa-regular fa-clock" aria-hidden="true"></i> 1 heure</p>
+            <p class="lesson-price">30 € / pers.</p>
+            <a href="#contact" class="btn btn-secondary">Réserver</a>
+          </article>
+
+          <!-- Cours collectif -->
+          <article class="lesson-card">
+            <div class="lesson-icon"><i class="fa-solid fa-people-group" aria-hidden="true"></i></div>
+            <h3>Cours collectif</h3>
+            <p class="lesson-desc">Des groupes de niveau homogène pour progresser ensemble, dans une émulation positive.</p>
+            <p class="lesson-meta"><i class="fa-regular fa-clock" aria-hidden="true"></i> 1h30</p>
+            <p class="lesson-price">20 € / pers.</p>
+            <a href="#contact" class="btn btn-secondary">Réserver</a>
+          </article>
+
+          <!-- Cours enfants -->
+          <article class="lesson-card">
+            <div class="lesson-icon"><i class="fa-solid fa-child" aria-hidden="true"></i></div>
+            <h3>Cours enfants</h3>
+            <p class="lesson-desc">Une initiation ludique et pédagogique pour les plus jeunes, encadrée par notre coach diplômé.</p>
+            <p class="lesson-meta"><i class="fa-regular fa-clock" aria-hidden="true"></i> 1 heure</p>
+            <p class="lesson-price">18 €</p>
+            <a href="#contact" class="btn btn-secondary">Réserver</a>
+          </article>
+
+          <!-- Cours adultes -->
+          <article class="lesson-card">
+            <div class="lesson-icon"><i class="fa-solid fa-user-tie" aria-hidden="true"></i></div>
+            <h3>Cours adultes</h3>
+            <p class="lesson-desc">Reprenez ou perfectionnez votre technique quel que soit votre niveau de départ.</p>
+            <p class="lesson-meta"><i class="fa-regular fa-clock" aria-hidden="true"></i> 1 heure</p>
+            <p class="lesson-price">40 €</p>
+            <a href="#contact" class="btn btn-secondary">Réserver</a>
+          </article>
+
+          <!-- Cours compétition -->
+          <article class="lesson-card">
+            <div class="lesson-icon"><i class="fa-solid fa-trophy" aria-hidden="true"></i></div>
+            <h3>Perfectionnement compétition</h3>
+            <p class="lesson-desc">Un entraînement exigeant pour les joueurs confirmés visant les tournois et la performance.</p>
+            <p class="lesson-meta"><i class="fa-regular fa-clock" aria-hidden="true"></i> 1h30</p>
+            <p class="lesson-price">50 €</p>
+            <a href="#contact" class="btn btn-secondary">Réserver</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== POURQUOI CHOISIR TAUZIN ==================== -->
+    <section class="why-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Nos atouts</p>
+          <h2>Pourquoi choisir Tauzin ?</h2>
+        </div>
+
+        <div class="why-grid">
+
+          <article class="why-card">
+            <div class="why-icon"><i class="fa-solid fa-medal" aria-hidden="true"></i></div>
+            <h3>Coach diplômé</h3>
+            <p>Un encadrement professionnel et personnalisé, à l'écoute de chaque joueur.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon"><i class="fa-solid fa-shield-halved" aria-hidden="true"></i></div>
+            <h3>Terrains de qualité</h3>
+            <p>Des surfaces entretenues avec exigence pour un jeu toujours agréable.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon"><i class="fa-solid fa-bolt" aria-hidden="true"></i></div>
+            <h3>Réservation rapide</h3>
+            <p>Un système simple pour réserver votre créneau en quelques instants.</p>
+          </article>
+
+          <article class="why-card">
+            <div class="why-icon"><i class="fa-solid fa-heart" aria-hidden="true"></i></div>
+            <h3>Ambiance conviviale</h3>
+            <p>Un club familial où chacun se sent bienvenu, quel que soit son niveau.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== NOTRE HISTOIRE ==================== -->
+    <section id="histoire" class="story-section">
+      <div class="container story-inner">
+        <div class="story-image">
+          <img src="https://placehold.co/560x600/e8e6e1/1f4d3a?text=Club+Tauzin" alt="Photo du club house et des membres du Club Tauzin" loading="lazy">
+        </div>
+        <div class="story-text">
+          <p class="eyebrow">Notre histoire</p>
+          <h2>Un club familial, une passion transmise</h2>
+          <p>
+            Depuis toujours, le Club Tauzin cultive une véritable passion pour le tennis. Fondé
+            comme un club familial, il a grandi autour de valeurs simples : le respect, l'effort
+            et le plaisir du jeu.
+          </p>
+          <p>
+            Ici, les valeurs sportives se transmettent de génération en génération, dans un accueil
+            chaleureux réservé à chacun de nos membres. Que vous découvriez une raquette pour la
+            première fois ou que vous visiez la compétition, le Club Tauzin est ouvert à tous les
+            niveaux, dans un cadre pensé pour donner le meilleur du tennis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TARIFS ==================== -->
+    <section id="tarifs" class="pricing-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Tarifs</p>
+          <h2>Nos formules</h2>
+          <p class="section-subtitle">Des tarifs clairs pour profiter du club selon vos besoins.</p>
+        </div>
+
+        <div class="pricing-table-wrapper">
+          <table class="pricing-table">
+            <thead>
+              <tr>
+                <th>Formule</th>
+                <th>Détails</th>
+                <th>Tarif</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Terrain — 1 heure</td>
+                <td>Location simple d'un terrain</td>
+                <td>18 € – 24 €</td>
+              </tr>
+              <tr>
+                <td>Cours particulier</td>
+                <td>Coaching individuel, 1 heure</td>
+                <td>45 €</td>
+              </tr>
+              <tr>
+                <td>Cours en duo</td>
+                <td>Coaching à deux, 1 heure</td>
+                <td>30 € / pers.</td>
+              </tr>
+              <tr>
+                <td>Cours collectif</td>
+                <td>Groupe de niveau, 1h30</td>
+                <td>20 € / pers.</td>
+              </tr>
+              <tr>
+                <td>Carte 10 séances</td>
+                <td>Valable 6 mois, tous cours</td>
+                <td>380 €</td>
+              </tr>
+              <tr>
+                <td>Abonnement annuel</td>
+                <td>Accès illimité aux terrains</td>
+                <td>590 € / an</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== GALERIE ==================== -->
+    <section class="gallery-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Galerie</p>
+          <h2>Le club en images</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-item">
+            <img src="https://placehold.co/500x500/1f4d3a/ffffff?text=Terrains" alt="Vue des terrains du Club Tauzin" loading="lazy">
+            <figcaption>Nos terrains</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://placehold.co/500x500/c8a96a/1f4d3a?text=Coach" alt="Le coach du Club Tauzin en séance" loading="lazy">
+            <figcaption>Notre coach</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://placehold.co/500x500/e8e6e1/1f4d3a?text=Entrainement" alt="Séance d'entraînement au Club Tauzin" loading="lazy">
+            <figcaption>Entraînements</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://placehold.co/500x500/1f4d3a/ffffff?text=Club+House" alt="Le club house du Club Tauzin" loading="lazy">
+            <figcaption>Club House</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://placehold.co/500x500/c8a96a/1f4d3a?text=Tournoi" alt="Tournoi organisé au Club Tauzin" loading="lazy">
+            <figcaption>Tournois</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <img src="https://placehold.co/500x500/e8e6e1/1f4d3a?text=Ambiance" alt="Ambiance conviviale au Club Tauzin" loading="lazy">
+            <figcaption>Ambiance club</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TÉMOIGNAGES ==================== -->
+    <section class="testimonials-section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Avis clients</p>
+          <h2>Ce que disent nos membres</h2>
+        </div>
+
+        <div class="testimonials-grid">
+
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-label="5 étoiles sur 5">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <p>« Un club magnifique, des terrains impeccables et un coach à l'écoute. On se sent vraiment bien accueilli. »</p>
+            <footer>— Laurent M.</footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-label="5 étoiles sur 5">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+            <p>« Mes enfants adorent les cours collectifs, le coach est patient et pédagogue. Ambiance familiale garantie. »</p>
+            <footer>— Sophie R.</footer>
+          </blockquote>
+
+          <blockquote class="testimonial-card">
+            <div class="stars" aria-label="4 étoiles sur 5">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-regular fa-star" aria-hidden="true"></i>
+            </div>
+            <p>« Réservation en ligne très simple et terrains toujours bien entretenus. Un cadre agréable pour jouer. »</p>
+            <footer>— Karim B.</footer>
+          </blockquote>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact" class="contact-section">
+      <div class="container contact-inner">
+
+        <!-- Formulaire de contact / réservation -->
+        <div class="contact-form-wrapper">
+          <p class="eyebrow">Contact &amp; réservation</p>
+          <h2>Contactez le club</h2>
+
+          <!-- Formulaire non fonctionnel, à titre indicatif -->
+          <form class="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom">
+              </div>
+              <div class="form-group">
+                <label for="prenom">Prénom</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="telephone">Téléphone</label>
+                <input type="tel" id="telephone" name="telephone" placeholder="06 12 34 56 78">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="votre@email.com">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="type-reservation">Type de réservation</label>
+              <select id="type-reservation" name="type-reservation">
+                <option value="">Sélectionnez une option</option>
+                <option value="terrain">Réservation de terrain</option>
+                <option value="cours-particulier">Cours particulier</option>
+                <option value="cours-duo">Cours en duo</option>
+                <option value="cours-collectif">Cours collectif</option>
+                <option value="autre">Autre demande</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Votre message..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+          </form>
+        </div>
+
+        <!-- Informations pratiques -->
+        <aside class="contact-info">
+          <p class="eyebrow">Informations</p>
+          <h2>Nous trouver</h2>
+
+          <ul class="info-list">
+            <li>
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              <span>12 allée des Tilleuls, 33000 Bordeaux</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone" aria-hidden="true"></i>
+              <span>05 56 12 34 56</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+              <span>contact@club-tauzin.fr</span>
+            </li>
+            <li>
+              <i class="fa-regular fa-clock" aria-hidden="true"></i>
+              <span>Ouvert tous les jours, 8h – 22h</span>
+            </li>
+          </ul>
+
+          <div class="social-icons">
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+          </div>
+        </aside>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== PIED DE PAGE ==================== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <a href="#accueil" class="logo footer-logo">
+          <span class="logo-mark" aria-hidden="true"><i class="fa-solid fa-table-tennis-paddle-ball"></i></span>
+          <span class="logo-text">TAUZIN</span>
+        </a>
+        <p>Un club de tennis familial, entre exigence sportive et art de vivre.</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Liens utiles">
+        <h4>Liens utiles</h4>
+        <ul>
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#reservation">Réservation</a></li>
+          <li><a href="#cours">Cours</a></li>
+          <li><a href="#tarifs">Tarifs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <nav class="footer-links" aria-label="Informations légales">
+        <h4>Informations</h4>
+        <ul>
+          <li><a href="#">Mentions légales</a></li>
+          <li><a href="#">Politique de confidentialité</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Club Tauzin. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
